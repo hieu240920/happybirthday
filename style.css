@@ -143,6 +143,8 @@ body {
 }
 .title .happy{
     color: var(--color-white);
+	top: 40px;
+	left: 40px;
 }
 .title .happy span, .title .birthday span{
     transform: translateY(50px);
@@ -159,6 +161,8 @@ body {
 }
 .title .birthday{
     color: var(--color-text-pink);
+	top: 40px;
+	left: 94px;
 }
 
 .title .hat{
@@ -225,8 +229,9 @@ body {
 }
 .name{
     position: absolute;
-    padding: 0px 40px;
-    bottom: -20px;
+    padding: 0px 20px;
+    bottom: -430px;
+    right: 1px;
     border: 3px solid var(--color-black);
 }
 .date__of__birth span, .name span{
@@ -251,8 +256,10 @@ body {
 }
 .content .right .image{
     position: relative;
-    width: 400px;
-    height: 400px;
+	top: 385px;
+	right: 10px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -266,8 +273,8 @@ body {
 }
 .cricle{
     position: absolute;
-    top: 20px;
-    right: 50px;
+    top: -50px;
+    right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,8 +339,8 @@ body {
 }
 .right .balloon_one{
     position: absolute;
-    top: -70px;
-    left: -70px;
+    top: 377px;
+    left: -88px;
     animation: balloon1 2s infinite linear;
 }
 @keyframes balloon1{
@@ -352,8 +359,8 @@ body {
 }
 .right .balloon_two{
     position: absolute;
-    top: 170px;
-    right: -65px;
+    top: 503px;
+    right: 282px;
     z-index: -1;
     transform: rotate(10deg);
     animation: balloon2 2s infinite linear;
@@ -384,7 +391,7 @@ body {
 .decorate_star.star1{
     width: 20px;
     height: 20px;
-    top: 75px;
+    top: 45px;
     left: 300px;
 }
 .decorate_star.star2{
@@ -422,7 +429,7 @@ body {
 .decorate_bottom{
     position: absolute;
     right: 0;
-    bottom: -10px;
+    bottom: -35px;
 }
 .decorate_flower--one{
     position: absolute;
