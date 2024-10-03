@@ -77,6 +77,7 @@ body {
 }
 #btn__letter{
     position: relative;
+	left: 17px;
     margin-top: 30px;
     background-color: var(--color-text-pink);
     outline: none;
@@ -143,8 +144,8 @@ body {
 }
 .title .happy{
     color: var(--color-white);
-	top: 40px;
-	left: 40px;
+	top: 23px;
+	left: 20px;
 }
 .title .happy span, .title .birthday span{
     transform: translateY(50px);
@@ -161,14 +162,14 @@ body {
 }
 .title .birthday{
     color: var(--color-text-pink);
-	top: 40px;
-	left: 94px;
+	top: 25px;
+	left: 73px;
 }
 
 .title .hat{
     position: absolute;
-    right: 45px;
-    top: -350px;
+    right: -202px;
+	top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
     animation: topHat 4s 7s forwards ease;
@@ -180,7 +181,7 @@ body {
         transform: rotate(-40deg);
     }
     35%, 100%{
-        top: -30px;
+        top: -59px;
         transform: rotate(0deg);
     }
 }
@@ -196,6 +197,8 @@ body {
 }
 .date__of__birth{
     border: 3px solid var(--color-black);
+	top: 5px;
+	right: -84px;
     position: relative;
     transform: translateY(-100px);
     z-index: -1;
@@ -230,8 +233,8 @@ body {
 .name{
     position: absolute;
     padding: 0px 20px;
-    bottom: -430px;
-    right: 1px;
+    bottom: -332px;
+    right: 52px;
     border: 3px solid var(--color-black);
 }
 .date__of__birth span, .name span{
@@ -256,8 +259,8 @@ body {
 }
 .content .right .image{
     position: relative;
-	top: 385px;
-	right: 10px;
+	top: 298px;
+	right: 66px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -273,13 +276,13 @@ body {
 }
 .cricle{
     position: absolute;
-    top: -50px;
-    right: 20px;
+    top: -12px;
+    right: 95px;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 3s 5s forwards ease-in-out;
 }
 @keyframes scaleCricle {
     0%{
@@ -339,8 +342,8 @@ body {
 }
 .right .balloon_one{
     position: absolute;
-    top: 377px;
-    left: -88px;
+    top: 299px;
+    left: -133px;
     animation: balloon1 2s infinite linear;
 }
 @keyframes balloon1{
@@ -359,8 +362,8 @@ body {
 }
 .right .balloon_two{
     position: absolute;
-    top: 503px;
-    right: 282px;
+    top: 262px;
+    right: 1px;
     z-index: -1;
     transform: rotate(10deg);
     animation: balloon2 2s infinite linear;
@@ -395,10 +398,10 @@ body {
     left: 300px;
 }
 .decorate_star.star2{
-    width: 15px;
-    height: 20px;
-    top: 35px;
-    right: 360px;
+    width: 22px;
+    height: 24px;
+    top: 23px;
+    right: 322px;
 }
 .decorate_star.star3{
     width: 14px;
@@ -409,14 +412,20 @@ body {
 .decorate_star.star4{
     width: 18px;
     height: 18px;
-    bottom: 60px;
-    left: 35px;
+    bottom: 37px;
+    left: 61px;
 }
 .decorate_star.star5{
     width: 16px;
     height: 18px;
-    bottom: 140px;
-    left: 500px;
+    bottom: 77px;
+    left: 268px;
+}
+.decorate_star.star6{
+    width: 22px;
+    height: 24px;
+    bottom: 259px;
+    left: 12px;
 }
 @keyframes scaleStar {
     25%{
@@ -433,21 +442,21 @@ body {
 }
 .decorate_flower--one{
     position: absolute;
-    top: 250px;
-    left: 50px;
+    top: 315px;
+    left: -10px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
 .decorate_flower--two{
     position: absolute;
-    top: 225px;
-    left: 540px;
+    top: 341px;
+    left: 376px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
 .decorate_flower--three{
     position: absolute;
-    top: 150px;
+    top: 128px;
     right: 235px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
@@ -473,8 +482,8 @@ body {
 }
 .box__letter .letter__border{
     position: absolute;
-    width: 55vw;
-    height: 450px;
+    width: 95vw;
+    height: 690px;
     background-color: var(--color-white);
     border-radius: 27px;
     padding: 17px;
@@ -591,8 +600,8 @@ body {
 .content__letter .right .love__img{
     opacity: 0;
     position: absolute;
-    right: 20px;
-    top: -100px;
+    right: -19px;
+    top: -46px;
 }
 .love__img.animationOp{
     animation: opacityHeart 1s 1s forwards;
